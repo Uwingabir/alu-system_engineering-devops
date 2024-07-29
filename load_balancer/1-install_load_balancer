@@ -10,8 +10,8 @@ frontend haproxy_balancer
     
 backend webservers
     balance roundrobin
-    server 26071-web-01 54.221.169.103 check
-    server 26071-web-02 35.173.47.15:80 check
+    server 6083-web-01 18.205.237.202 check
+    server 6083-web-02 18.234.211.33 check
 "
 # Update packages
 apt-get -y update
